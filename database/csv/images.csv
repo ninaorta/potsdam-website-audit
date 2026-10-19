@@ -1,0 +1,10 @@
+image_id,page_id,caption_as_shown,position,display_order,subject_observed,recoverable_as,notes,verified_by
+1,4,Lehman Park 4,feature,1,"Paved loop with boulders and grass, trees behind",screenshot_crop_usable,,
+2,4,Lehman Park,gallery,2,Paved area with trees,screenshot_crop_low_res,Gallery thumbnail,
+3,4,Lehman Park 2,gallery,3,Paved area with water and trees in distance,screenshot_crop_low_res,Gallery thumbnail,
+4,4,Lehman Park 3,gallery,4,Wide panoramic strip of shoreline,screenshot_crop_low_res,Very thin thumbnail; little detail,
+5,5,Ives Park Gazebo,feature,1,Gazebo on a lawn with trees,screenshot_crop_usable,,
+6,5,Ives Park,gallery,2,Wide panoramic strip of trees and lawn,screenshot_crop_low_res,Very thin thumbnail; little detail,
+7,6,Garner Park 2,feature,1,"Tree on riverbank lawn, picnic table at right",screenshot_crop_usable,,
+8,6,Garner Park,gallery,2,Lawn and path beside the river,screenshot_crop_low_res,Gallery thumbnail,
+9,6,Garner Park 3,gallery,3,Wide panoramic strip of riverbank,screenshot_crop_low_res,Very thin thumbnail; little detail,

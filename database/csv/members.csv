@@ -1,0 +1,11 @@
+member_id,page_id,display_order,name_as_shown,role_as_shown,term_as_shown,term_end_iso,email_listed,phone_listed,verified_by
+1,8,1,Justin C. Perry,3rd Assistant Cheif,Term expires 04/2018,2018-04,1,0,
+2,8,2,Danielle M. Rose,Chief,Term expires 04/2018,2018-04,1,0,
+3,8,3,Timothy L. Jerome,1st Assistant Chief,Term expires 04/2018,2018-04,1,0,
+4,8,4,Jerrid Lavoie,2nd Assistant Chief,Term expires 04/2018,2018-04,0,0,
+5,7,1,Mary Cabral,Alternate Member,Term expires 9/19/2021,2021-09-19,1,1,
+6,7,2,Edward Komara,Chairman,Term expires 11/3/2023,2023-11-03,1,1,
+7,7,3,Richard Del Guidice,Member,"September 19, 2021",2021-09-19,1,1,
+8,7,4,Janna Cummings,Member,Term expires 11/18/2024,2024-11-18,0,0,
+9,7,5,Mike Weil,Alternate Member,Term expires 11/6/2022,2022-11-06,1,1,
+10,7,6,Louann Lange,Member,Term expires 9/21/2025,2025-09-21,0,0,
