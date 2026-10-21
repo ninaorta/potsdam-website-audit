@@ -9,6 +9,7 @@ The Village of Potsdam lost access to its website and has an archive of screensh
 | Folder or file | What it holds |
 |---|---|
 | README.md | This file |
+| TEAM_GUIDE.md | Step-by-step instructions for team members adding their pages |
 | screenshots/ | The 9 screenshots in our detailed sample |
 | sitemap/sitemap.mmd | Mermaid source of the recovered site structure |
 | sitemap/sitemap.png | Rendered sitemap |
