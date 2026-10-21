@@ -1,10 +1,10 @@
 slug,section,page_title,level,content_type,assigned_to,recovery_status,image_count,document_count,member_count,issue_count,ocr_errors_logged
-board-rec,Boards & Committees,Joint Recreation Committee,3,board_profile,Nina,ocr_done,0,0,0,1,8
+board-rec,Boards & Committees,Joint Recreation Committee,3,board_profile,Nina,verified,0,0,0,1,8
 board-fire,Boards & Committees,Potsdam Fire Department,3,board_profile,Sharon,not_started,0,0,4,5,0
 board-zoning,Boards & Committees,Zoning Board of Appeals,3,board_profile,Tito,not_started,0,3,6,6,0
-parks-garner,Parks,Garner Park,3,park_profile,Nina,ocr_done,3,0,0,3,8
+parks-garner,Parks,Garner Park,3,park_profile,Nina,verified,3,0,0,3,8
 parks-ives,Parks,Ives Park,3,park_profile,Sharon,not_started,2,0,0,3,0
 parks-lehman,Parks,Lehman Park,3,park_profile,Tito,not_started,4,0,0,3,0
-ps-fire,Public Safety,Potsdam Fire Department,3,department_listing,Nina,ocr_done,0,0,0,2,12
+ps-fire,Public Safety,Potsdam Fire Department,3,department_listing,Nina,verified,0,0,0,2,12
 ps-police,Public Safety,Potsdam Police Department,3,department_listing,Sharon,not_started,0,0,0,1,0
 ps-rescue,Public Safety,Potsdam Rescue Squad,3,department_listing,Tito,not_started,0,0,0,1,0

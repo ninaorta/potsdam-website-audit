@@ -78,3 +78,4 @@ INSERT INTO issues (page_id, issue_type, text_as_shown, description, suggested_a
 UPDATE pages SET recovery_status = 'ocr_done',
        ocr_error_count = (SELECT COUNT(*) FROM ocr_errors e WHERE e.page_id = pages.page_id)
  WHERE page_id IN (3, 6, 9);
+UPDATE pages SET recovery_status = 'verified', verified_by = 'Nurina Darmawati' WHERE page_id IN (3, 6, 9);
