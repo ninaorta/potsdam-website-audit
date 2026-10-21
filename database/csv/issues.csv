@@ -25,3 +25,5 @@ issue_id,page_id,issue_type,text_as_shown,description,suggested_action,verified_
 24,8,duplicate,Potsdam Fire Department,"Same title as the Public Safety page ps-fire.png, different content.",Consider consolidating into one Fire Department page.,
 25,8,structure,,A fire department (an emergency service) is listed as a Board/Committee. Probably because its officers are elected and approved by the Village Board.,Reconsider placement in the new information architecture.,
 26,9,thin_content,Number of Members: 6,"Page shows only the title and member count: no members, duties, meeting info or documents.",Ask the village for current content or remove the page.,
+27,6,original_typo,acquired as part on,"Original says ""part on"" where ""part of"" is meant. OCR reproduced it correctly.","Correct during remediation, not during recovery.",
+28,6,outdated,handicap accessible,Dated accessibility wording.,Revise wording during remediation (e.g. describe the accessible features).,

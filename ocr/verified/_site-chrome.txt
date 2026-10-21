@@ -1,0 +1,40 @@
+[Shared on every page in the sample. Verified once here instead of on each page.]
+
+[top navigation buttons]
+Home
+Search
+News
+Calendars
+Departments
+
+[side navigation, in order]
+Agendas & Minutes
+Assessment Information
+Boards & Committees
+Economic Development
+Educational Facilities
+FAQ's
+Forms
+Laws
+Links
+Maps
+Parking Tickets
+Parks
+Public Safety
+Trash and Recycling
+Village Tax Payments
+Water / Sewer Payments
+
+[footer]
+© 2023 Village Of Potsdam, St.Lawrence County
+
+Website Contact: Ron Tischler
+Email: mayor@vi.potsdam.ny.us
+2 Park Street - Civic Center
+P.O. Box 5168
+Potsdam, NY 13676
+Phone: 315-265-7480
+Fax: 315-265-3149
+Website Disclaimer: Information on this website is for informational purposes only and is provided as a courtesy to the general public. Every effort has been made to insure that information posted to this website is correct at the time of posting. Content of this website, although checked for accuracy, is not warranted to be error-free. If you have any doubt, please call the village office for clarification. The Village of Potsdam is not responsible for any, indirect, incidental or consequential damages that may arise from the use of, or the inability to use, the website and/or the materials contained on the site. This institution is an equal opportunity provider, and employer. To file a complaint of discrimination, write: USDA, Director, Office of Civil Rights, 1400 Independence Avenue, S.W., Washington, DC 20250-9410, or call (800) 795-3272 (voice) or (202) 720-6382 (TDD).
+
+[logo] Powered By: Digital Towpath  www.DigitalTowpath.org
