@@ -1,0 +1,83 @@
+---
+config:
+  layout: elk
+---
+%% Village of Potsdam website - recovered sitemap (whole site)
+%% Structure follows the course reference sitemap (ericyork.github.io/eg_sitemap),
+%% checked against the navigation visible in the screenshot archive.
+%% Blue boxes   = page in our 9-page detailed sample, labeled with the title as shown in the screenshot.
+%% White boxes  = other pages in the archive.
+%% Dark box     = homepage. Light blue boxes = sections with sub-pages.
+
+flowchart LR
+    home["Homepage"]
+
+    home --> search["Search"]
+    home --> news["News"]
+    home --> cal["Calendars"]
+    home --> dept["Departments"]
+    home --> agendas["Agendas & Minutes"]
+    home --> assess["Assessment Information"]
+    home --> boards["Boards & Committees"]
+    home --> econ["Economic Development"]
+    home --> edu["Educational Facilities"]
+    home --> faq["FAQ's"]
+    home --> forms["Forms"]
+    home --> laws["Laws"]
+    home --> links["Links"]
+    home --> maps["Maps"]
+    home --> parking["Parking Tickets"]
+    home --> parks["Parks"]
+    home --> safety["Public Safety"]
+    home --> trash["Trash and Recycling"]
+    home --> tax["Village Tax Payments"]
+    home --> water["Water / Sewer Payments"]
+
+    dept --> d_admin["Administrator"]
+    dept --> d_clerk["Clerk / Registrar"]
+    dept --> d_code["Code Enforcement Office"]
+    dept --> d_airport["Damon Field Airport"]
+    dept --> d_dpw["Department of Public Works"]
+    dept --> d_museum["Museum"]
+    dept --> d_planning["Planning and Development Office"]
+    dept --> d_police["Police"]
+    dept --> d_rec["Recreation Department"]
+    dept --> d_vital["Registrar of Vital Statistics —<br/>Birth & Death Records"]
+    dept --> d_sewage["Sewage Treatment Plant"]
+    dept --> d_treas["Treasurer"]
+    dept --> d_water["Water / Hydro Plants"]
+
+    agendas --> a_plan["Planning Board Minutes"]
+    agendas --> a_vagenda["Village Board Agendas"]
+    agendas --> a_vmin["Village Board Minutes"]
+    agendas --> a_zoning["Zoning Board Minutes"]
+
+    boards --> b_airport["Airport Board"]
+    boards --> b_fire["Potsdam Fire Department<br/>(board-fire.png)"]
+    boards --> b_museum["Museum Board"]
+    boards --> b_planning["Planning Board"]
+    boards --> b_rec["Joint Recreation Committee<br/>(board-rec.png)"]
+    boards --> b_village["Village Board"]
+    boards --> b_zoning["Zoning Board of Appeals<br/>(board-zoning.png)"]
+
+    parks --> p_fall["Fall Island Park"]
+    parks --> p_garner["Garner Park<br/>(parks-garner.png)"]
+    parks --> p_ives["Ives Park<br/>(parks-ives.png)"]
+    parks --> p_lehman["Lehman Park<br/>(parks-lehman.png)"]
+    parks --> p_sand["Sandstoner Park"]
+
+    safety --> ps_police["Potsdam Police Department<br/>(ps-police.png)"]
+    safety --> ps_fire["Potsdam Fire Department<br/>(ps-fire.png)"]
+    safety --> ps_rescue["Potsdam Rescue Squad<br/>(ps-rescue.png)"]
+
+    classDef root fill:#0b2545,stroke:#0b2545,color:#ffffff;
+    classDef section fill:#e8eef7,stroke:#7a96bf,color:#0b2545;
+    classDef leaf fill:#ffffff,stroke:#b7bfca,color:#3a4556;
+    classDef sample fill:#3d6db5,stroke:#1f4e8c,color:#ffffff;
+
+    class home root;
+    class dept,agendas,boards,parks,safety section;
+    class search,news,cal,assess,econ,edu,faq,forms,laws,links,maps,parking,trash,tax,water leaf;
+    class d_admin,d_clerk,d_code,d_airport,d_dpw,d_museum,d_planning,d_police,d_rec,d_vital,d_sewage,d_treas,d_water leaf;
+    class a_plan,a_vagenda,a_vmin,a_zoning,b_airport,b_museum,b_planning,b_village,p_fall,p_sand leaf;
+    class b_fire,b_rec,b_zoning,p_garner,p_ives,p_lehman,ps_police,ps_fire,ps_rescue sample;
