@@ -27,3 +27,37 @@ error_id,page_id,method,region,error_type,ocr_text,correct_text,severity,notes,r
 26,9,tesseract,body,missing_text,,Return To List,low,White text on blue button not read.,Nina
 27,9,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,Same footer loss as ps-fire.,Nina
 28,9,tesseract,footer,extra_text,PaWete Ey / Digital,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Nina
+29,2,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Sharon Ajibade
+30,2,tesseract,sidebar_nav,reading_order,i Y Agendas & Minute / Public Safety y gendas & Minutes,Public Safety (heading) + Agendas & Minutes (nav),medium,"Section heading merged with a garbled, duplicated nav item.",Sharon Ajibade
+31,2,tesseract,heading,reading_order,Potsdam Police Department 7 Boards & Committees,Potsdam Police Department,high,Page title merged with a side-nav item on the same line.,Sharon Ajibade
+32,2,tesseract,body,reading_order,38 Main Street Educational Facilities,38 Main Street,high,Street address merged with a side-nav item.,Sharon Ajibade
+33,2,tesseract,body,reading_order,Economic Development / Address:,Address: (label above the street address),low,The Address label was placed among the nav items instead of with the address.,Sharon Ajibade
+34,2,tesseract,heading,reading_order,Description: Y Maps,Description:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
+35,2,tesseract,body,reading_order,See Department or Potsdam Police website for more information. Y Parking Tickets,See Department or Potsdam Police website for more information.,medium,Nav item appended to the end of the description sentence.,Sharon Ajibade
+36,2,tesseract,sidebar_nav,character_substitution,"i, Y, y, 7, Ww",(checkmark icons),low,Icons read as letters and symbols.,Sharon Ajibade
+37,2,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,"Same footer loss as ps-fire: contact name, email, address, phone and fax lost with no warning.",Sharon Ajibade
+38,2,tesseract,footer,extra_text,Eaweke od By) / Digital / wee Bi gi 9,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Sharon Ajibade
+39,5,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Sharon Ajibade
+40,5,tesseract,heading,missing_text,,Parks,medium,Section heading missing; output starts with the side-nav list.,Sharon Ajibade
+41,5,tesseract,heading,reading_order,Boards & Committees / Ives Park / Economic Development,Ives Park (page title),medium,Page title placed in the middle of the side-nav list.,Sharon Ajibade
+42,5,tesseract,body,missing_text,,Contact: Lori Queor,high,Contact person's name dropped entirely.,Sharon Ajibade
+43,5,tesseract,body,missing_text,,Address:,low,Address label dropped.,Sharon Ajibade
+44,5,tesseract,body,reading_order,3 Riverview Drive 3 @ FAQ's,3 Riverview Drive,high,"Street address merged with a stray ""3"" and a side-nav item; could be misread as part of the address.",Sharon Ajibade
+45,5,tesseract,link,email_or_url,|queor@vi.potsdam.ny.us,lqueor@vi.potsdam.ny.us,high,"Lowercase l read as a vertical bar, so the email address is wrong.",Sharon Ajibade
+46,5,tesseract,heading,reading_order,Table Of Contents: @ Links,Table Of Contents:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
+47,5,tesseract,image_caption,extra_text,Ives Park Gazebo 4,Ives Park Gazebo,low,"Stray ""4"" added after the caption.",Sharon Ajibade
+48,5,tesseract,body,heading_or_list_structure,« Information ” Maps / ¢ Facilities w Parking Tickets / « Reservations / e Images,• Information / • Facilities / • Reservations / • Images,low,"Bullets read as symbols, and two list items merged with side-nav items.",Sharon Ajibade
+49,5,tesseract,heading,reading_order,Information: ef Trash and Recycling,Information:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
+50,5,tesseract,body,reading_order,The Park can be w Village Tax Payments / Potsdam Farmer's w Water / Sewer Payments,The Park can be / Potsdam Farmer's,medium,Nav items inserted into the middle of the Information paragraph.,Sharon Ajibade
+51,5,tesseract,body,punctuation,accessed via .,accessed via,low,Stray period at the end of a paragraph line.,Sharon Ajibade
+52,5,tesseract,body,heading_or_list_structure,¢ Gazebo / ¢ Benches / Picnic Tables / ¢ Canoe/Kayak Launch,• Gazebo / • Benches / • Picnic Tables / • Canoe/Kayak Launch,low,"Bullets read as ""¢""; one bullet dropped.",Sharon Ajibade
+53,5,tesseract,sidebar_nav,character_substitution,"@, w, ef, ”",(checkmark icons),low,Icons read as letters and symbols.,Sharon Ajibade
+54,5,tesseract,image_caption,missing_text,,Ives Park,low,Gallery caption under the thumbnail not read.,Sharon Ajibade
+55,5,tesseract,body,missing_text,,Return To List,low,White text on blue button not read.,Sharon Ajibade
+56,5,tesseract,footer,missing_text,,"Website Contact block (8 lines), Website Disclaimer paragraph and Powered By: Digital Towpath logo",high,Same footer loss as ps-fire; logo text also missing.,Sharon Ajibade
+57,8,tesseract,body,heading_or_list_structure,¢ Members / ¢ FAQs,• Members / • FAQs,low,"Bullets read as ""¢"".",Sharon Ajibade
+58,8,tesseract,link,email_or_url,(dmrose@potsdamfire.o,(dmrose@potsdamfire.org),high,Email address cut off; the rest of the line was dropped.,Sharon Ajibade
+59,8,tesseract,top_nav,reading_order,Home / Search / News / Calendars / Departments (after Return To List),Home / Search / News / Calendars / Departments (top of page),low,Top navigation read correctly but placed after the page content.,Sharon Ajibade
+60,8,tesseract,sidebar_nav,character_substitution,"@, BS SS SS SS SS SS",(checkmark icons),low,Icons read as symbols; one line of pure garbage.,Sharon Ajibade
+61,8,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,Same footer loss as ps-fire.,Sharon Ajibade
+62,8,tesseract,footer,extra_text,PBWere o By,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Sharon Ajibade
