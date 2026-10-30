@@ -24,6 +24,8 @@ Each person compared the extracted text with the original screenshot line by lin
 
 ## What we found
 
+Across the nine pages we logged 91 OCR errors. Pages with more content and layout, such as Ives Park and the Zoning Board of Appeals (18 errors each), had the most.
+
 Tesseract read the main body text very accurately. Paragraphs, phone numbers and figures such as a park's size of ".33 acres" came out correctly. Most errors came from the page layout:
 
 - Menu items merged into page content, for example "Phone: 315-265-3312 7 Forms", where the 7 is a menu icon.
