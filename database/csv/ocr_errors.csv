@@ -1,63 +1,92 @@
 error_id,page_id,method,region,error_type,ocr_text,correct_text,severity,notes,recorded_by
-1,3,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Nina
-2,3,tesseract,sidebar_nav,reading_order,i Y Agendas & Minut / Public Safety y gendas & Minutes,Public Safety (heading) + Agendas & Minutes (nav),medium,"Section heading merged with a garbled, duplicated nav item.",Nina
-3,3,tesseract,heading,reading_order,Potsdam Fire Department 7 Boards & Committees,Potsdam Fire Department,high,Page title merged with a side-nav item on the same line.,Nina
-4,3,tesseract,body,reading_order,42 Main Street # Educational Facilities,42 Main Street,high,Street address merged with a side-nav item.,Nina
-5,3,tesseract,body,reading_order,Phone: 315-265-3312 7 Forms,Phone: 315-265-3312,high,"Digits are correct, but a stray ""7"" (checkmark icon) follows the number and could be read as part of it.",Nina
-6,3,tesseract,body,reading_order,Fax: 315-265-7738 Y Laws,Fax: 315-265-7738,high,Fax number merged with a side-nav item.,Nina
-7,3,tesseract,link,reading_order,Website: www.potsdamfire.org Y Links,Website: www.potsdamfire.org,medium,URL itself is correct; nav item appended.,Nina
-8,3,tesseract,sidebar_nav,character_substitution,"i, Y, y, 7, #",(checkmark icons),low,Icons read as letters and symbols.,Nina
-9,3,tesseract,sidebar_nav,reading_order,FAQ's (after Parking Tickets),FAQ's (after Educational Facilities),low,Nav item placed out of order.,Nina
-10,3,tesseract,body,extra_text,Return To List .,Return To List,low,Stray period.,Nina
-11,3,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,"Small dark text on blue background was dropped entirely: village contact name, email, address, phone and fax lost with no warning.",Nina
-12,3,tesseract,footer,extra_text,DE wees Eee / Digital,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Nina
-13,6,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Nina
-14,6,tesseract,heading,missing_text,,Parks,medium,Section heading missing; output starts with the page title.,Nina
-15,6,tesseract,body,heading_or_list_structure,Information / e Facilities / e Images,• Information / • Facilities / • Images,low,"Bullets read as ""e""; first bullet dropped.",Nina
-16,6,tesseract,image_caption,extra_text,= oe es,,low,Garbage characters produced from a gallery photo.,Nina
-17,6,tesseract,image_caption,reading_order,Garner Park 3 / Garner Park,Garner Park / Garner Park 3,low,"Gallery captions reversed (left image has a taller thumbnail, so its caption sits lower).",Nina
-18,6,tesseract,body,missing_text,,Return To List,low,White text on blue button not read.,Nina
-19,6,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,Same footer loss as ps-fire.,Nina
-20,6,tesseract,footer,extra_text,Eaweke od By),Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Nina
-21,9,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Nina
-22,9,tesseract,heading,reading_order,Joint Recreation Committee Boards & Committees,Joint Recreation Committee,high,Page title merged with a side-nav item on the same line.,Nina
-23,9,tesseract,heading,reading_order,? Agendas & Minutes / Boards & Committees,Boards & Committees (heading) before nav,low,Section heading placed after the first nav item.,Nina
-24,9,tesseract,sidebar_nav,missing_text,,FAQ's,medium,One of the 16 nav items is missing from the output.,Nina
-25,9,tesseract,sidebar_nav,character_substitution,?,(checkmark icons),low,Icons read as question marks.,Nina
-26,9,tesseract,body,missing_text,,Return To List,low,White text on blue button not read.,Nina
-27,9,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,Same footer loss as ps-fire.,Nina
-28,9,tesseract,footer,extra_text,PaWete Ey / Digital,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Nina
-29,2,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Sharon Ajibade
-30,2,tesseract,sidebar_nav,reading_order,i Y Agendas & Minute / Public Safety y gendas & Minutes,Public Safety (heading) + Agendas & Minutes (nav),medium,"Section heading merged with a garbled, duplicated nav item.",Sharon Ajibade
-31,2,tesseract,heading,reading_order,Potsdam Police Department 7 Boards & Committees,Potsdam Police Department,high,Page title merged with a side-nav item on the same line.,Sharon Ajibade
-32,2,tesseract,body,reading_order,38 Main Street Educational Facilities,38 Main Street,high,Street address merged with a side-nav item.,Sharon Ajibade
-33,2,tesseract,body,reading_order,Economic Development / Address:,Address: (label above the street address),low,The Address label was placed among the nav items instead of with the address.,Sharon Ajibade
-34,2,tesseract,heading,reading_order,Description: Y Maps,Description:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
-35,2,tesseract,body,reading_order,See Department or Potsdam Police website for more information. Y Parking Tickets,See Department or Potsdam Police website for more information.,medium,Nav item appended to the end of the description sentence.,Sharon Ajibade
-36,2,tesseract,sidebar_nav,character_substitution,"i, Y, y, 7, Ww",(checkmark icons),low,Icons read as letters and symbols.,Sharon Ajibade
-37,2,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,"Same footer loss as ps-fire: contact name, email, address, phone and fax lost with no warning.",Sharon Ajibade
-38,2,tesseract,footer,extra_text,Eaweke od By) / Digital / wee Bi gi 9,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Sharon Ajibade
-39,5,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Sharon Ajibade
-40,5,tesseract,heading,missing_text,,Parks,medium,Section heading missing; output starts with the side-nav list.,Sharon Ajibade
-41,5,tesseract,heading,reading_order,Boards & Committees / Ives Park / Economic Development,Ives Park (page title),medium,Page title placed in the middle of the side-nav list.,Sharon Ajibade
-42,5,tesseract,body,missing_text,,Contact: Lori Queor,high,Contact person's name dropped entirely.,Sharon Ajibade
-43,5,tesseract,body,missing_text,,Address:,low,Address label dropped.,Sharon Ajibade
-44,5,tesseract,body,reading_order,3 Riverview Drive 3 @ FAQ's,3 Riverview Drive,high,"Street address merged with a stray ""3"" and a side-nav item; could be misread as part of the address.",Sharon Ajibade
-45,5,tesseract,link,email_or_url,|queor@vi.potsdam.ny.us,lqueor@vi.potsdam.ny.us,high,"Lowercase l read as a vertical bar, so the email address is wrong.",Sharon Ajibade
-46,5,tesseract,heading,reading_order,Table Of Contents: @ Links,Table Of Contents:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
-47,5,tesseract,image_caption,extra_text,Ives Park Gazebo 4,Ives Park Gazebo,low,"Stray ""4"" added after the caption.",Sharon Ajibade
-48,5,tesseract,body,heading_or_list_structure,« Information ” Maps / ¢ Facilities w Parking Tickets / « Reservations / e Images,• Information / • Facilities / • Reservations / • Images,low,"Bullets read as symbols, and two list items merged with side-nav items.",Sharon Ajibade
-49,5,tesseract,heading,reading_order,Information: ef Trash and Recycling,Information:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
-50,5,tesseract,body,reading_order,The Park can be w Village Tax Payments / Potsdam Farmer's w Water / Sewer Payments,The Park can be / Potsdam Farmer's,medium,Nav items inserted into the middle of the Information paragraph.,Sharon Ajibade
-51,5,tesseract,body,punctuation,accessed via .,accessed via,low,Stray period at the end of a paragraph line.,Sharon Ajibade
-52,5,tesseract,body,heading_or_list_structure,¢ Gazebo / ¢ Benches / Picnic Tables / ¢ Canoe/Kayak Launch,• Gazebo / • Benches / • Picnic Tables / • Canoe/Kayak Launch,low,"Bullets read as ""¢""; one bullet dropped.",Sharon Ajibade
-53,5,tesseract,sidebar_nav,character_substitution,"@, w, ef, ”",(checkmark icons),low,Icons read as letters and symbols.,Sharon Ajibade
-54,5,tesseract,image_caption,missing_text,,Ives Park,low,Gallery caption under the thumbnail not read.,Sharon Ajibade
-55,5,tesseract,body,missing_text,,Return To List,low,White text on blue button not read.,Sharon Ajibade
-56,5,tesseract,footer,missing_text,,"Website Contact block (8 lines), Website Disclaimer paragraph and Powered By: Digital Towpath logo",high,Same footer loss as ps-fire; logo text also missing.,Sharon Ajibade
-57,8,tesseract,body,heading_or_list_structure,¢ Members / ¢ FAQs,• Members / • FAQs,low,"Bullets read as ""¢"".",Sharon Ajibade
-58,8,tesseract,link,email_or_url,(dmrose@potsdamfire.o,(dmrose@potsdamfire.org),high,Email address cut off; the rest of the line was dropped.,Sharon Ajibade
-59,8,tesseract,top_nav,reading_order,Home / Search / News / Calendars / Departments (after Return To List),Home / Search / News / Calendars / Departments (top of page),low,Top navigation read correctly but placed after the page content.,Sharon Ajibade
-60,8,tesseract,sidebar_nav,character_substitution,"@, BS SS SS SS SS SS",(checkmark icons),low,Icons read as symbols; one line of pure garbage.,Sharon Ajibade
-61,8,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,Same footer loss as ps-fire.,Sharon Ajibade
-62,8,tesseract,footer,extra_text,PBWere o By,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Sharon Ajibade
+1,1,tesseract,sidebar_nav,extra_text,Agendas & Minutes ... Water / Sewer Payments,,low,16 side-menu items added to page text,Bolatito Abolade
+2,1,tesseract,footer,extra_text,DE wees Eee Digital,,low,Logo in footer misread as text,Bolatito Abolade
+3,1,tesseract,footer,extra_text,"© 2023 Village Of Potsdam, St.Lawrence County",,low,Footer copyright line removed from verified file,Bolatito Abolade
+4,4,tesseract,body,missing_text,Information,• Information,low,Bullet missing in table of contents,Bolatito Abolade
+5,4,tesseract,body,character_substitution,e Images,• Images,low,Bullet read as letter e,Bolatito Abolade
+6,4,tesseract,body,reading_order,Lehman Park 3 ... Lehman Park Lehman Park 2,"Lehman Park, Lehman Park 2, Lehman Park 3",medium,Image captions out of order,Bolatito Abolade
+7,4,tesseract,body,extra_text,| rn,,low,Image misread as characters,Bolatito Abolade
+8,4,tesseract,body,missing_text,,Return To List,medium,Link text not captured,Bolatito Abolade
+9,4,tesseract,sidebar_nav,extra_text,Agendas & Minutes ... Water / Sewer Payments,,low,16 side-menu items added to page text,Bolatito Abolade
+10,4,tesseract,footer,extra_text,PaWete Ey Digital,,low,Logo in footer misread as text,Bolatito Abolade
+11,4,tesseract,footer,extra_text,"© 2023 Village Of Potsdam, St.Lawrence County",,low,Footer copyright line removed from verified file,Bolatito Abolade
+12,7,tesseract,heading,extra_text,Calendars partments,,low,"Top navigation buttons misread, Departments cut off",Bolatito Abolade
+13,7,tesseract,body,character_substitution,¢ Duties,• Duties,low,Bullet misread,Bolatito Abolade
+14,7,tesseract,body,character_substitution,¢ Members,• Members,low,Bullet misread,Bolatito Abolade
+15,7,tesseract,body,character_substitution,¢ FAQs,• FAQs,low,Bullet misread,Bolatito Abolade
+16,7,tesseract,body,character_substitution,« Documents,• Documents,low,Bullet misread,Bolatito Abolade
+17,7,tesseract,body,character_substitution,"¢ Orders, requirements, decisions","• Orders, requirements, decisions",low,Bullet misread,Bolatito Abolade
+18,7,tesseract,body,missing_text,Use variances.,• Use variances.,low,Bullet missing,Bolatito Abolade
+19,7,tesseract,body,character_substitution,« Area variances.,• Area variances.,low,Bullet misread,Bolatito Abolade
+20,7,tesseract,body,character_substitution,¢ Imposition of conditions.,• Imposition of conditions.,low,Bullet misread,Bolatito Abolade
+21,7,tesseract,body,missing_text,. Public Hearings and Special Meetings,2. Public Hearings and Special Meetings,medium,List number 2 missing,Bolatito Abolade
+22,7,tesseract,body,missing_text,. Members are appointed by the Mayor,3. Members are appointed by the Mayor,medium,List number 3 missing,Bolatito Abolade
+23,7,tesseract,body,missing_text,. An Oath of Office is required.,4. An Oath of Office is required.,medium,List number 4 missing,Bolatito Abolade
+24,7,tesseract,body,missing_text,". The Mayor, with approval","5. The Mayor, with approval",medium,List number 5 missing,Bolatito Abolade
+25,7,tesseract,body,character_substitution,¢ Use this form,• Use this form,low,Bullet misread,Bolatito Abolade
+26,7,tesseract,body,character_substitution,¢ $50 application fee.,• $50 application fee.,low,Bullet misread,Bolatito Abolade
+27,7,tesseract,sidebar_nav,extra_text,Agendas & Minutes ... Water / Sewer Payments,,low,16 side-menu items added to page text,Bolatito Abolade
+28,7,tesseract,body,missing_text,,Return To List,medium,Link text not captured,Bolatito Abolade
+29,7,tesseract,footer,extra_text,"© 2023 Village Of Potsdam, St.Lawrence County",,low,Footer copyright line removed from verified file,Bolatito Abolade
+30,3,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Nina
+31,3,tesseract,sidebar_nav,reading_order,i Y Agendas & Minut / Public Safety y gendas & Minutes,Public Safety (heading) + Agendas & Minutes (nav),medium,"Section heading merged with a garbled, duplicated nav item.",Nina
+32,3,tesseract,heading,reading_order,Potsdam Fire Department 7 Boards & Committees,Potsdam Fire Department,high,Page title merged with a side-nav item on the same line.,Nina
+33,3,tesseract,body,reading_order,42 Main Street # Educational Facilities,42 Main Street,high,Street address merged with a side-nav item.,Nina
+34,3,tesseract,body,reading_order,Phone: 315-265-3312 7 Forms,Phone: 315-265-3312,high,"Digits are correct, but a stray ""7"" (checkmark icon) follows the number and could be read as part of it.",Nina
+35,3,tesseract,body,reading_order,Fax: 315-265-7738 Y Laws,Fax: 315-265-7738,high,Fax number merged with a side-nav item.,Nina
+36,3,tesseract,link,reading_order,Website: www.potsdamfire.org Y Links,Website: www.potsdamfire.org,medium,URL itself is correct; nav item appended.,Nina
+37,3,tesseract,sidebar_nav,character_substitution,"i, Y, y, 7, #",(checkmark icons),low,Icons read as letters and symbols.,Nina
+38,3,tesseract,sidebar_nav,reading_order,FAQ's (after Parking Tickets),FAQ's (after Educational Facilities),low,Nav item placed out of order.,Nina
+39,3,tesseract,body,extra_text,Return To List .,Return To List,low,Stray period.,Nina
+40,3,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,"Small dark text on blue background was dropped entirely: village contact name, email, address, phone and fax lost with no warning.",Nina
+41,3,tesseract,footer,extra_text,DE wees Eee / Digital,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Nina
+42,6,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Nina
+43,6,tesseract,heading,missing_text,,Parks,medium,Section heading missing; output starts with the page title.,Nina
+44,6,tesseract,body,heading_or_list_structure,Information / e Facilities / e Images,• Information / • Facilities / • Images,low,"Bullets read as ""e""; first bullet dropped.",Nina
+45,6,tesseract,image_caption,extra_text,= oe es,,low,Garbage characters produced from a gallery photo.,Nina
+46,6,tesseract,image_caption,reading_order,Garner Park 3 / Garner Park,Garner Park / Garner Park 3,low,"Gallery captions reversed (left image has a taller thumbnail, so its caption sits lower).",Nina
+47,6,tesseract,body,missing_text,,Return To List,low,White text on blue button not read.,Nina
+48,6,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,Same footer loss as ps-fire.,Nina
+49,6,tesseract,footer,extra_text,Eaweke od By),Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Nina
+50,9,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Nina
+51,9,tesseract,heading,reading_order,Joint Recreation Committee Boards & Committees,Joint Recreation Committee,high,Page title merged with a side-nav item on the same line.,Nina
+52,9,tesseract,heading,reading_order,? Agendas & Minutes / Boards & Committees,Boards & Committees (heading) before nav,low,Section heading placed after the first nav item.,Nina
+53,9,tesseract,sidebar_nav,missing_text,,FAQ's,medium,One of the 16 nav items is missing from the output.,Nina
+54,9,tesseract,sidebar_nav,character_substitution,?,(checkmark icons),low,Icons read as question marks.,Nina
+55,9,tesseract,body,missing_text,,Return To List,low,White text on blue button not read.,Nina
+56,9,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,Same footer loss as ps-fire.,Nina
+57,9,tesseract,footer,extra_text,PaWete Ey / Digital,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Nina
+58,2,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Sharon Ajibade
+59,2,tesseract,sidebar_nav,reading_order,i Y Agendas & Minute / Public Safety y gendas & Minutes,Public Safety (heading) + Agendas & Minutes (nav),medium,"Section heading merged with a garbled, duplicated nav item.",Sharon Ajibade
+60,2,tesseract,heading,reading_order,Potsdam Police Department 7 Boards & Committees,Potsdam Police Department,high,Page title merged with a side-nav item on the same line.,Sharon Ajibade
+61,2,tesseract,body,reading_order,38 Main Street Educational Facilities,38 Main Street,high,Street address merged with a side-nav item.,Sharon Ajibade
+62,2,tesseract,body,reading_order,Economic Development / Address:,Address: (label above the street address),low,The Address label was placed among the nav items instead of with the address.,Sharon Ajibade
+63,2,tesseract,heading,reading_order,Description: Y Maps,Description:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
+64,2,tesseract,body,reading_order,See Department or Potsdam Police website for more information. Y Parking Tickets,See Department or Potsdam Police website for more information.,medium,Nav item appended to the end of the description sentence.,Sharon Ajibade
+65,2,tesseract,sidebar_nav,character_substitution,"i, Y, y, 7, Ww",(checkmark icons),low,Icons read as letters and symbols.,Sharon Ajibade
+66,2,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,"Same footer loss as ps-fire: contact name, email, address, phone and fax lost with no warning.",Sharon Ajibade
+67,2,tesseract,footer,extra_text,Eaweke od By) / Digital / wee Bi gi 9,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Sharon Ajibade
+68,5,tesseract,top_nav,missing_text,,Home | Search | News | Calendars | Departments,medium,White text on blue buttons was not read at all.,Sharon Ajibade
+69,5,tesseract,heading,missing_text,,Parks,medium,Section heading missing; output starts with the side-nav list.,Sharon Ajibade
+70,5,tesseract,heading,reading_order,Boards & Committees / Ives Park / Economic Development,Ives Park (page title),medium,Page title placed in the middle of the side-nav list.,Sharon Ajibade
+71,5,tesseract,body,missing_text,,Contact: Lori Queor,high,Contact person's name dropped entirely.,Sharon Ajibade
+72,5,tesseract,body,missing_text,,Address:,low,Address label dropped.,Sharon Ajibade
+73,5,tesseract,body,reading_order,3 Riverview Drive 3 @ FAQ's,3 Riverview Drive,high,"Street address merged with a stray ""3"" and a side-nav item; could be misread as part of the address.",Sharon Ajibade
+74,5,tesseract,link,email_or_url,|queor@vi.potsdam.ny.us,lqueor@vi.potsdam.ny.us,high,"Lowercase l read as a vertical bar, so the email address is wrong.",Sharon Ajibade
+75,5,tesseract,heading,reading_order,Table Of Contents: @ Links,Table Of Contents:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
+76,5,tesseract,image_caption,extra_text,Ives Park Gazebo 4,Ives Park Gazebo,low,"Stray ""4"" added after the caption.",Sharon Ajibade
+77,5,tesseract,body,heading_or_list_structure,« Information ” Maps / ¢ Facilities w Parking Tickets / « Reservations / e Images,• Information / • Facilities / • Reservations / • Images,low,"Bullets read as symbols, and two list items merged with side-nav items.",Sharon Ajibade
+78,5,tesseract,heading,reading_order,Information: ef Trash and Recycling,Information:,medium,Subheading merged with a side-nav item.,Sharon Ajibade
+79,5,tesseract,body,reading_order,The Park can be w Village Tax Payments / Potsdam Farmer's w Water / Sewer Payments,The Park can be / Potsdam Farmer's,medium,Nav items inserted into the middle of the Information paragraph.,Sharon Ajibade
+80,5,tesseract,body,punctuation,accessed via .,accessed via,low,Stray period at the end of a paragraph line.,Sharon Ajibade
+81,5,tesseract,body,heading_or_list_structure,¢ Gazebo / ¢ Benches / Picnic Tables / ¢ Canoe/Kayak Launch,• Gazebo / • Benches / • Picnic Tables / • Canoe/Kayak Launch,low,"Bullets read as ""¢""; one bullet dropped.",Sharon Ajibade
+82,5,tesseract,sidebar_nav,character_substitution,"@, w, ef, ”",(checkmark icons),low,Icons read as letters and symbols.,Sharon Ajibade
+83,5,tesseract,image_caption,missing_text,,Ives Park,low,Gallery caption under the thumbnail not read.,Sharon Ajibade
+84,5,tesseract,body,missing_text,,Return To List,low,White text on blue button not read.,Sharon Ajibade
+85,5,tesseract,footer,missing_text,,"Website Contact block (8 lines), Website Disclaimer paragraph and Powered By: Digital Towpath logo",high,Same footer loss as ps-fire; logo text also missing.,Sharon Ajibade
+86,8,tesseract,body,heading_or_list_structure,¢ Members / ¢ FAQs,• Members / • FAQs,low,"Bullets read as ""¢"".",Sharon Ajibade
+87,8,tesseract,link,email_or_url,(dmrose@potsdamfire.o,(dmrose@potsdamfire.org),high,Email address cut off; the rest of the line was dropped.,Sharon Ajibade
+88,8,tesseract,top_nav,reading_order,Home / Search / News / Calendars / Departments (after Return To List),Home / Search / News / Calendars / Departments (top of page),low,Top navigation read correctly but placed after the page content.,Sharon Ajibade
+89,8,tesseract,sidebar_nav,character_substitution,"@, BS SS SS SS SS SS",(checkmark icons),low,Icons read as symbols; one line of pure garbage.,Sharon Ajibade
+90,8,tesseract,footer,missing_text,,Website Contact block (8 lines) and Website Disclaimer paragraph,high,Same footer loss as ps-fire.,Sharon Ajibade
+91,8,tesseract,footer,extra_text,PBWere o By,Powered By: Digital Towpath www.DigitalTowpath.org,low,Logo read as garbage.,Sharon Ajibade
